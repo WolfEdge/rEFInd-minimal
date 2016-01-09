@@ -24,22 +24,11 @@ based systems. This is a clean and minimal theme for it.
 
 Your boot entries should be auto-detected. Be careful to remove old Linux kernels and comment out all the example menu entries in `refind.conf`.
 
-### Background sizes
+### Background
 
-If you find the background does not fit your monitor or is too large you have
-three options:
+If your find the background looks blurry it may be due to the [included wallpaper][wallpaper] being an incorrect resolution for your monitor - this theme ships with a 1920x1080 resolution wallpaper. Below you can find the wallpaper source and download the correct size. If the correct size isn't available for download you can resize it yourself.
 
- 1. Configure the `banner_scale` option with `fillscreen`. Be aware that this
-    may cause some level of quality loss due to resampling! If things look
-    fuzzy this may not be the right approch.
-
- 2. Download and resize the [original high-quality wallpaper][wallpaper] and
-    replace the `background.png`. Different sizes of the wallpaper are available for download.
-
- 3. Adjust the resolution option in `refind.conf`. Mine is set to `resolution 1920 1080`. Going above
-    1920x1080 may have undesirable effects.
-
-You can swap out the background with any other background you like. All you have to do is download it, make sure it is an appropiate size, and make sure it is either a BMP (with a depth of either 24, 8, 4, or 1) or a PNG. Take care to ensure that all the icons are still visible. After you have done this, simply delete the original `background.png` amd replace it with your own `background.png`.
+You can swap out the background with any other background you like. All you have to do is download it, make sure it is an appropiate size, and make sure it is either a BMP (with a depth of either 24, 8, 4, or 1) or a PNG. Take care to ensure that all the icons are still visible. After you have done this, simply delete the original `background.png` and replace it with your own `background.png`.
 
 ### Attribution
 
